@@ -1,0 +1,25 @@
+[19-Apr-2020 12:57:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function has_errors() on string in /home/fyoj1kuewq2r/public_html/wp-login.php:1355
+Stack trace:
+#0 {main}
+  thrown in /home/fyoj1kuewq2r/public_html/wp-login.php on line 1355
+[26-Apr-2020 14:06:39 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 14:06:40 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 14:07:50 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 14:07:50 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 14:58:13 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 14:58:13 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 15:29:25 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 15:29:25 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 15:29:25 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 15:29:25 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 15:30:18 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 15:30:18 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 16:23:38 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[26-Apr-2020 16:23:38 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[27-Apr-2020 01:22:15 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[27-Apr-2020 01:22:15 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[01-May-2020 11:15:42 UTC] PHP Warning:  Use of undefined constant RPRESS_VERSION - assumed 'RPRESS_VERSION' (this will throw an Error in a future version of PHP) in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/gateways/paypal-standard.php on line 448
+[12-May-2020 06:44:31 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[12-May-2020 06:44:31 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[12-May-2020 06:44:32 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430
+[12-May-2020 06:44:32 UTC] PHP Warning:  A non-numeric value encountered in /home/fyoj1kuewq2r/public_html/wp-content/plugins/restropress/includes/emails/email-tags.php on line 430

@@ -1,0 +1,310 @@
+/*
+Theme Name: Catch Foodmania
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Layouts
+# Media Queries
+	## >= 568px (iPhone 5, 5S, 5C and 5SE : Landscape)
+	## >= 768px (iPad 1, 2, 3, 4, Mini, Air, Pro 9.7" : Portrait)
+	## >= 1024px (iPad 1, 2, 3, 4, Mini, Air, Pro 9.7" : Landscape)
+	## >= 1200px (Kindle Fire HD 8.9", Non-Retina Screens & Retina Screens : Portrait)
+	## >= 1366px (iPad Pro 12.9" : Landscape)
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# FontAwesome
+# Layouts
+# Media Queries
+	## >= 568px (iPhone 5, 5S, 5C and 5SE : Landscape)
+	## >= 768px (iPad 1, 2, 3, 4, Mini, Air, Pro 9.7" : Portrait)
+	## >= 1024px (iPad 1, 2, 3, 4, Mini, Air, Pro 9.7" : Landscape)
+	## >= 1200px (Kindle Fire HD 8.9", Non-Retina Screens & Retina Screens : Portrait)
+	## >= 1366px (iPad Pro 12.9" : Landscape)
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+body {
+	direction: rtl;
+	overflow-x: hidden;
+	unicode-bidi: embed;
+}
+
+/*--------------------------------------------------------------
+# FontAwesome
+--------------------------------------------------------------*/
+
+.nav-previous .nav-subtitle:before {
+	margin-right: 0;
+    margin-left: 7px;
+}
+
+.nav-next .nav-subtitle:after {
+	margin-left: 0;
+	margin-right: 7px;
+}
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+
+.site-branding {
+	margin-right: 0;
+	padding-right: 0;
+	margin-left: auto;
+}
+
+
+#site-navigation {
+	margin-right: auto;
+}
+
+.menu-wrapper {
+	float: right;
+}
+
+.is-open .menu-inside-wrapper {
+	right: auto;
+	left: 0;
+}
+
+.main-navigation .dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+.navigation-classic .search-content-wrapper-top {
+	text-align: left;
+}
+
+.main-navigation ul ul a {
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+.main-navigation .menu-item-has-children .menu-item-has-children > a,
+.main-navigation .page_item_has_children .page_item_has_children > a {
+	padding-right: 50px;
+}
+
+.main-navigation ul ul ul a {
+	padding-left: 30px;
+	padding-right: 70px;
+}
+
+#search-container {
+	clear: both;
+}
+
+#search-container input,
+.widget input[type="search"] {
+	padding: 12px 20px 12px 65px;
+}
+
+#search-container button,
+.widget .search-submit {
+	left: 0;
+	right: inherit;
+}
+
+.search-content-wrapper-top #search-container:before {
+	left: 9px;
+}
+
+.main-navigation ul ul li::before {
+	left: inherit;
+	right: 0;
+	transform: rotate(180deg);
+}
+
+.menu-content-wrapper .entry-price {
+	text-align: left;
+}
+
+.search-submit {
+	left: 0;
+	right: auto;
+}
+
+.menu-wrapper .search-form .search-field {
+	padding-left: 45px;
+	padding-right: 14px;
+}
+
+
+th {
+	text-align: right;
+}
+
+ul,
+ol {
+    margin: 0 1.25em 1.75em 0;
+    padding: 0;
+}
+
+blockquote {
+	border: 0 solid #ff6b08;
+	border-right-width: 5px;
+	padding-left: 0;
+	padding-right: 35px;
+}
+
+.tags-links a, 
+.cat-links a {
+    margin-left: 21px;
+    margin-right: 0;
+}
+
+.entry-header .entry-meta > span,
+.custom-header .entry-meta > span {
+	margin-right: 0;
+	margin-left: 14px;
+}
+
+.entry-footer .cat-links:before,
+.entry-footer .tags-links:before,
+.edit-link:before {
+	margin-right: 0;
+	margin-left: 7px;
+}
+
+.comment-author .avatar {
+    float: right;
+    margin-left: 28px;
+    margin-right: 0;
+}
+
+#cancel-comment-reply-link::before {
+	padding-left: 4px;
+	padding-right: 0;
+}
+
+.comment-content::before {
+    right: 16px;
+}
+
+.testimonials-content-wrapper .hentry:before {
+	left: 0.3828125em;
+	right: inherit;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## >= 480px
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 30em) {
+	.comment-reply-link {
+		left: 0;
+		right: inherit;
+	}
+}
+	
+
+
+/*--------------------------------------------------------------
+## >= 667px
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 48em) {
+	.author-description {
+		padding-left: 0;
+		padding-right: 35px;
+		text-align: right;
+	}
+
+	.menu-content-wrapper .post-thumbnail {
+	    float: right;
+	    margin-left: 21px;
+	    margin-right: 0;
+	}
+
+	.is-open .menu-inside-wrapper {
+		left: 40px;
+	}
+
+	.menu-toggle-wrapper {
+		float: right;
+	}
+}
+
+/*--------------------------------------------------------------
+## >= 1024px
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 64em) {
+	.navigation-classic #primary-menu-wrapper {
+		float: right;
+	}
+	.is-open .menu-inside-wrapper {
+		left: 60px;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a:after,
+	.navigation-classic .main-navigation .page_item_has_children > a:after {
+	    padding-left: 0;
+	    padding-right: 7px;
+	}
+
+	.navigation-classic .main-navigation ul ul .menu-item-has-children > a:after,
+	.navigation-classic .main-navigation ul ul .page_item_has_children > a:after {
+		left: 21px;
+		right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul li:hover > ul,
+	.navigation-classic .main-navigation ul ul li.focus > ul {
+	    left: 100%;
+	    right: inherit;
+	}
+
+	.navigation-classic .main-navigation ul ul .menu-item-has-children > a::after,
+	.navigation-classic .main-navigation ul ul .page_item_has_children > a::after {
+	    transform: rotate(270deg);
+	}
+
+	.navigation-classic .main-navigation ul li:hover > ul,
+	.navigation-classic .main-navigation ul li.focus > ul {
+	    left: 0;
+	    right: auto;
+	}
+
+	.navigation-classic .site-header-main .search-content-wrapper-top #search-container {
+		left: 0;
+		right: inherit;
+	}
+
+	.author-description {
+		padding-right: 49px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+## >= 1200px
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 75em) {
+	.site-description {
+		text-align: right;
+	}
+}

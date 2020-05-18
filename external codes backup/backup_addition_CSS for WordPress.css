@@ -1,0 +1,269 @@
+
+/* Remove meta data */
+.entry-meta .byline, .entry-meta .cat-links { display: none; }
+.entry-meta .posted-on { display: none; }
+
+
+/*Adjust layout of food item list*/
+.rpress_fooditems_list h5.rpress-cat {
+	margin-top: 20px;
+}
+ul.rpress-category-lists .rpress-category-item {
+	padding: 6px 0px 6px 0px ;
+	font-size: 16px;
+}
+.rpress_purchase_submit_wrapper {
+	margin-bottom:10px;
+}
+html body .rpress_fooditem_inner {
+	padding: 0 0 12px 0;
+}
+.rpress-price-holder .rpress-add-to-cart {
+	padding: 0px 3px;
+}
+
+.rpress-thumbnail-holder {
+	vertical-align: top;display: none;
+}
+
+.rpress-thumbnail-holder + .rpress-title-holder {
+	width: -webkit-calc(100% - 150px);
+	width: -moz-calc(100% - 150px);
+	width: calc(100% - 150px);
+}
+
+/*Customzie delivery time*/
+/*
+#rpress-delivery-hours option[value="11:00"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="11:30"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="12:00"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="12:30"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="13:00"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="13:30"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="14:00"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="14:30"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="15:00"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="15:30"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="16:00"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="16:30"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="17:00"] {
+	display: none;
+}
+#rpress-delivery-hours option[value="17:30"] {
+	display: none;
+}
+.menu-category-wrap span {
+	color: red !important;
+}*/
+
+
+
+/*hide delivery time wrap*/
+.delivery-time-text {
+    visibility: hidden;
+}
+
+.rpress-delivery-zone-wrapper #rp_delivery_zone{
+	background:#ccc;
+}
+
+.delivery-time-text:before {
+    content: "Estimated Time: 45-60 minites.";
+    visibility: visible;
+    position: absolute;
+}
+
+#rpress-delivery-hours {
+    display: none;
+}
+
+.pickup-time-text {
+    visibility: hidden;
+}
+.pickup-time-text:before {
+    content: "Estimated Time: 20 minites.";
+    visibility: visible;
+    position: absolute;
+}
+
+#rpress-pickup-hours {
+    display: none;
+}
+
+.delivery-wrap {
+    visibility: hidden;
+}
+.delivery-wrap:before {
+    content: "If delivery, minimum order is $25.";
+    visibility: visible;
+	  position: relative;
+	  color:red;
+	  font-weight:bold;
+	  font-size:large
+}
+.delivery-opts {
+    display: none;
+}
+
+
+
+/*change font&color of discount code*/
+#rpress_show_discount {
+	font-weight: 900;
+	font-size: larger;
+
+}
+
+
+/*style business hours in header*/
+.leyton-business-hours {
+    font-size: 11px;
+    color: black;
+    margin-right: 20px;
+    position: relative;
+    left: -30px;
+}
+.leyton-delivery-pickup-hours {
+    font-size: 11px;
+    color: black;
+    position: relative;
+    left: -28px;
+}
+
+
+/*for tablets and mobile*/
+@media screen and (max-width: 768px) {
+	.site-header-main {
+		display:table;
+	}
+	.site-branding {
+		display:table-footer-group;
+	}
+	.leyton-business-hours {
+		display:table-row-group;
+		font-size: 10px;
+		background-color:#cccccc7a;
+	}
+	.leyton-delivery-pickup-hours{
+		display:table-row-group;
+		font-size: 10px;
+		background-color:#cccccc7a;
+	}
+	.nav-search-wrap{
+		display:table-header-group
+	}
+}
+
+/*Site Logo*/
+.site-branding {
+    padding-bottom: 0px!important;
+	padding-top: 0px!important;
+}
+
+/*Check Out Full Name*/
+label[for=rpress-first] {
+	visibility:hidden!important;
+}
+#rpress_checkout_form_wrap span.rpress-required-indicator {
+	visibility:hidden!important;
+}
+label[for=rpress-first] ::before{
+	 content: "Full Name"!important;
+	visibility: visible!important;
+	margin-left: -103px!important;
+	color:#666!important;
+	}
+@media screen and (max-width: 1600px){
+label[for=rpress-first] ::before{
+	 content: "Full Name"!important;
+	visibility: visible!important;
+	margin-left: -91px!important;
+	color:#666!important;
+	}}
+#rpress-last-name-wrap {
+	display:none!important;
+}
+#rpress-email, #rpress-first, #rpress-phone{
+	    border: 1px solid #b94a48 !important;
+}
+#rpress-customer-address .rpress-input
+{
+	    border: 1px solid #b94a48 !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ color: white!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white!important;
+} 
+
+/*Check Out Your Details*/
+#rpress_checkout_user_info legend{
+	 visibility: hidden!important;
+}
+#rpress_checkout_user_info legend::before{
+	visibility: visible!important;
+	 content: "Your Details"!important;
+}
+
+
+/*swap blocks on checkout page
+#rpress_purchase_form_wrap {
+	display:table;
+}
+#rpress_cc_fields {
+	display:table-header-group;
+}
+#rpress_checkout_user_info{
+	display:table-row-group;
+}
+#rpress_purchase_submit{
+	display:table-footer-group;
+}*/
+
+/*receipt page*/
+td.rpress_receipt_delivery_time {
+    display: none;
+}
+
+
+/*chagne warningh content when not entering suburb*/
+html body .rpress-errors-wrap{
+	color:transparent;
+}
+html body .rpress-errors-wrap:before{
+	content:"Please enter your suburb";
+	color:white;
+	margin-right: -220px;
+}
+
