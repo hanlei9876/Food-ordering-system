@@ -1073,35 +1073,3 @@ cash
 
 3\. Paying with card (This is provided by PayPal Pro) has extra charge.
 **Test the real payment**
-
-Usernames and Passwords:
-
-![A screenshot of a social media post Description automatically
-generated](media/image79.png)
-
-WordPress Admin:
-
-Username: zluc5j
-
-Password: 1q2w3e
-
-**Payment for us**
-
-1\. Market Reference:
-
-1)  Average market price for a web developer in Sydney: AUS 50/hr
-
-2)  In Sydney:
-
-<!-- end list -->
-
-  - To make a website like wucraft.com.au: AUD 3000
-
-  - To make an e-commerce website like this food ordering system: AUD
-    6000 – 15000
-
-2\. Our calculation:
-
-AUD 35/hs, I and Pengbo totally spent 110 hrs,
-
-So, the total fee should be 3850. But we only ask for **3800**.
