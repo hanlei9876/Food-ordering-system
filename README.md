@@ -70,20 +70,18 @@ points (encouragement policy)
 2.  Restropress: Search, install and activate plugin Restropress.
     Disable sidebar in current Wordpress Theme.
 
-1\. 用wordpress在本地来搭建网站。建好通过测试后，在migrate到服务器上host起来，这样clients就可以访问此网站了。
+1\. Use WordPres locally to build up the website. Then, after successful tetsing, migrate this website to a GoDadddy server for hosting, so customers are able to visit this site.
 
 2\. **MAMP**
 
-**简介**
+**Introduction**
 
-MAMP 是的基于PHP的web 开发环境，集成了 Apache、MySQL
-DB、PHP，安装即用，可以很方便的在本地电脑上安装我们需要的应用。
-
-  - **官网：**<https://www.mamp.info/en/mamp/mac/>
+MAMP is a PHP-based web development environment, integrating Apache web server, MySQL database and PHP.
+  - <https://www.mamp.info/en/mamp/mac/>
 
 <!-- end list -->
 
-  - **平台：** OS X
+  - **Platform：** OS X
 
 **MAMP** is a free and open-source, Mac-platform based web server
 solution stack.
@@ -98,9 +96,9 @@ Note:
     **a set of software subsystem/components** needed to create a
     **complete** platform. That is, to develop the software, no other
     components are needed. A software platform supports applications to
-    run on it. 其实，就是开发一个平台系统所需的**一整套components**。
+    run on it. All in all，solution stack is **all the components** needed to develop a platform.
 
-所以，XAMPP is designed for developing web servers (system), being composed
+So，XAMPP is designed for developing web servers (system), being composed
 of
 
   - Support Mac
