@@ -374,7 +374,7 @@ It works.
 
 **<span class="underline">Why we need ShortCode APIs?</span>**
 
-1\. To avoid 恶意攻击.
+1\. To avoid malicious attack.
 
 WordPress filters all content to make sure that no one uses posts and
 page content to **insert malicious code in the database**. This means
@@ -543,14 +543,14 @@ Below is how to set up in GoDaddy:
 generated](media/image40.png)
 
 (1)
-    HTTP返回码中301与302的区别
+    Differences between HTTP 301 and 302
 
-301，302 都是HTTP状态的编码，都代表着某个URL发生了转移，不同之处在于： 
+301，302 are both HTTP state codes，representing a state transition of a URL. The differences are： 
 
-  - 301 redirect: 301 代表永久性转移(Permanently Moved)。
+  - 301 redirect: Permanently Moved.
 
-  - 302 redirect: 302 代表暂时性转移(Temporarily Moved )。302转向可能会有URL规范化及网址劫持的问题。可能被搜索引擎判为可疑转向，甚至认为是作弊。
-
+  - 302 redirect: Temporarily Moved. 302 could be regarded by search engine as a cheating behavior.
+  
 (2) redirect with masking
 
 If without masking, When type
@@ -701,10 +701,6 @@ So, no matter which PayPal version we use,
 
 1\. we need to have a PayPal business account
 
-  - Username: tangtangcantonkitchen@gmail.com
-
-  - Password: tangtang2019
-
 ![A screenshot of a cell phone Description automatically
 generated](media/image51.png)
 
@@ -720,8 +716,6 @@ generated](media/image51.png)
 “Testing APIs (using PayPal sandbox account)” *
 
 3\. To use PayPal Pro, one more piece of information is needed:
-
-PayPal Live PayPal Merchant ID: **X99NDRGJ4FLL4**
 
 1)  You can find your Merchant ID in your Account Profile in PayPal,
 
@@ -742,9 +736,9 @@ generated](media/image53.png)
 
   - Credential - Signature
 
-  - API username - tangtangcantonkitchen\_api1.gmail.com
+  - API username
 
-  - API password - 7VVUVLX932ZS9797
+  - API password
 
   - Signature - AoiCBNGVMlgj2ndAkLS-nFk5d9sfA2ymi5QYvNFABHWviXmOgOm7tckO
 
